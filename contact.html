@@ -60,6 +60,9 @@
             <form action="https://formspree.io/f/xwveqwpe" method="post" >
                 <input type="text" name="name" placeholder="Your Name" required>
                 <input type="email" name="email" placeholder="Your Email" required>
+                 <input type="tel" name="phone" placeholder="Phone Number " pattern="+[0-9]{12}$" 
+                     tittle="Please enter the phone number starting
+                      with +256 " required>
                 <input type="text" name="subject" placeholder="Subject">
                 <textarea name="message" placeholder="Your Message" required></textarea>
                 <button type="submit" class="btn">Send Message</button>
@@ -83,3 +86,4 @@
 </body>
 
 </html>
+
